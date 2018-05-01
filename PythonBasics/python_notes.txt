@@ -1,0 +1,32 @@
+# Python Notes
+
+'''
+  Definitions
+'''
+
+List - an array
+      >>> l = ["hello", "world" 5]
+
+Tuple - a List that is immutable
+      >>> t = ("hello", "world", 5)
+
+Dict - an object in JavaScript (Note: keys are not always in the same order)
+      >>> d = {"one": 1, "two": 2}
+
+
+'''
+  Helper Methods
+'''
+
+type() - prints out an object's type
+      >>> type("")
+      <class 'str'>
+
+dir() - prints out all the methods available for an object
+      >>> dir("Hello")
+      [ 'capitalize', 'casefold', 'center', ...
+
+
+help() - prints out the help for a method
+       >>> help("".replace)
+       replace(...) method of builtins.str instance ...
